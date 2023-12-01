@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Shower</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <slide-layout>
+        <template shadowroot="open">
+            <link rel="stylesheet" href="css/deck.css">
+            <slide-one>
+                <template shadowroot="open">
+                    <link rel="stylesheet" href="css/slide.css">
+                    <style>
+                        h2 {
+                            color: blue;
+                        }
+                    </style>
+                    <h2>Slide One</h2>
+                </template>
+            </slide-one>
+            <slide-two>
+                <template shadowroot="open">
+                    <link rel="stylesheet" href="css/slide.css">
+                    <style>
+                        h2 {
+                            color: tomato;
+                        }
+                    </style>
+                    <h2>Slide Two</h2>
+                </template>
+            </slide-two>
+            <slide-three>
+                <template shadowroot="open">
+                    <link rel="stylesheet" href="css/slide.css">
+                    <style>
+                        h2 {
+                            color: limegreen;
+                        }
+                    </style>
+                    <h2>Slide Three</h2>
+                </template>
+            </slide-three>
+        </template>
+    </slide-layout>
+    <script src='index.js'></script>
+</body>
+</html>
